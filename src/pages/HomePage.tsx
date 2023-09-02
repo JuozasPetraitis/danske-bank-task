@@ -1,11 +1,11 @@
-import React from 'react'
+import Introduction from "../components/Introduction";
 
-type Props = {}
-
-const HomePage = (props: Props) => {
+const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <>
+      <Introduction />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;

@@ -1,11 +1,15 @@
-import React from 'react'
+import HamburgerMenu from "./HamburgerMenu";
 
-type Props = {}
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header className="mx-auto flex h-[10vh] max-w-screen-3xl items-center justify-between px-4">
+      <p className="font-Tektur flex-1 cursor-default text-center text-4xl font-black md:text-8xl">
+        Star Wars
+      </p>
 
-export default Header
+      <HamburgerMenu />
+    </header>
+  );
+};
+
+export default Header;

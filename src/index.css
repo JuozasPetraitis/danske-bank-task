@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Tektur";
+  src: url("./fonts/Tektur.ttf");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "SedgwickAveDisplay";
+  src: url("./fonts/SedgwickAveDisplay.ttf");
+}

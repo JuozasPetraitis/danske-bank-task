@@ -3,11 +3,11 @@ module.exports = {
   env: { browser: true, es2020: true },
   extends: [
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/strict-type-checked",
-    "plugin:@typescript-eslint/stylistic-type-checked",
+    // 'plugin:@typescript-eslint/stylistic-type-checked',
     "plugin:react-hooks/recommended",
-    "plugin:react/recommended",
     "plugin:react/jsx-runtime",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
@@ -33,5 +33,7 @@ module.exports = {
         extendDefaults: true,
       },
     ],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
   },
 };

@@ -1,11 +1,11 @@
-import React from 'react'
+import Router from "./config/router/Router";
 
-type Props = {}
-
-const App = (props: Props) => {
+const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Router />
+    </>
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,13 @@
+{
+  "prettier.ignorePath": [],
+  "prettier.useTabs": false,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": false,
+  "prettier.bracketSpacing": true,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "lf",
+  "prettier.proseWrap": "always",
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
