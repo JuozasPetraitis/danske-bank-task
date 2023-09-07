@@ -1,11 +1,5 @@
-import Introduction from "../components/Introduction";
+import Introduction from "../components/Introduction/Introduction";
 
-const HomePage = () => {
-  return (
-    <>
-      <Introduction />
-    </>
-  );
-};
+const HomePage = () => <Introduction />;
 
 export default HomePage;

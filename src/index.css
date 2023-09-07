@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  * {
+    @apply font-TitilliumWeb;
+  }
+
+  tr {
+    display: block;
+  }
+}
+
 @font-face {
   font-family: "Tektur";
   src: url("./fonts/Tektur.ttf");
@@ -11,4 +21,10 @@
 @font-face {
   font-family: "SedgwickAveDisplay";
   src: url("./fonts/SedgwickAveDisplay.ttf");
+}
+
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("./fonts/TitilliumWeb.ttf");
+  font-weight: 400;
 }
