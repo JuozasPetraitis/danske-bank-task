@@ -1,4 +1,4 @@
-## danske-bank-star-wars-api-task
+# Danske Bank Star Wars API task
 
 #### Technologies used
 
